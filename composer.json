@@ -1,0 +1,11 @@
+{
+  "name": "gestionalan/framework-installer",
+  "description": "The GLFramework Installer",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.0",
+    "gestionlan/framework": "*"
+  },
+
+  "minimum-stability": "dev"
+}
