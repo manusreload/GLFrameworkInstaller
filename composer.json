@@ -1,11 +1,13 @@
 {
   "name": "gestionalan/framework-installer",
   "description": "The GLFramework Installer",
+  "version": "1.0.0",
   "type": "project",
   "require": {
     "php": ">=5.5.0",
     "gestionlan/framework": "*"
   },
+  "dist": { "url": "http://dummy.com/dummy.zip", "type": "zip" },
 
   "minimum-stability": "dev"
 }
