@@ -1,0 +1,11 @@
+{
+  "package": {
+    "name": "gestionalan/framework-installer",
+    "version": "1.0.0",
+    "source": {
+      "url": "/Users/manus/proyectos/GLFrameworkInstaller/.git",
+      "type": "git",
+      "reference": "master"
+    }
+  }
+}

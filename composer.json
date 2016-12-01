@@ -8,6 +8,16 @@
     "gestionlan/framework": "*"
   },
   "dist": { "url": "http://dummy.com/dummy.zip", "type": "zip" },
-
+  "extra": {
+    "merge-plugin": {
+      "include": [
+        "modules/*/composer.json",
+        "vendor/gestionlan/framework/modules/*/composer.json"
+      ]
+    }
+  },
+  "config": {
+    "secure-http": false
+  },
   "minimum-stability": "dev"
 }
