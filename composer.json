@@ -7,7 +7,6 @@
     "php": ">=5.5.0",
     "gestionlan/framework": "*"
   },
-  "dist": { "url": "http://dummy.com/dummy.zip", "type": "zip" },
   "extra": {
     "merge-plugin": {
       "include": [

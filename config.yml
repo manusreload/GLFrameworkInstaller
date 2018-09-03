@@ -14,16 +14,19 @@ app:
     - view
     - view/includes
 
+  resources: assets
+
   filesystem: data
   routes:
     #- MyNameSpace\home: ["/home/example/[i:id]"]
     #- home: ["/home/example/[i:id]", "GET|POST"]
-    #- sub_home: ["/home/sub/example/[i:id]", GET]
+    - GLApp\product: ["/product/[i:id]/show", GET]
+    - GLApp\product: ["/product/add", "GET|POST"]
 
-database:
-  cache:
-    connector: GLFramework\Cache\MemoryCache
-    host: localhost
+#database:
+#  cache:
+#    connector: GLFramework\Cache\MemoryCache
+#    host: localhost
 
 
 modules:
