@@ -13,8 +13,12 @@
 
     <div class="jumbotron">
         Version: {{ this.version }}
+        <div>
+                <a href="/setup" class="btn btn-primary btn-lg">Installer</a>
+                <a href="{{ this.getLink('GLApp\\product') }}" class="btn btn-primary btn-lg">Products Manager</a>
+        </div>
     </div>
-    <a href="https://github.com/manusreload/GLFramework">GitHub</a>
+    <a href="https://github.com/manusreload/GLFramework"><i class="fa fa-github"></i> GitHub</a>
 
 {% endblock %}
 {% block scripts %}{% endblock %}

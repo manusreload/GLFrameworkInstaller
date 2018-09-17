@@ -20,8 +20,8 @@ app:
   routes:
     #- MyNameSpace\home: ["/home/example/[i:id]"]
     #- home: ["/home/example/[i:id]", "GET|POST"]
-    - GLApp\product: ["/product/[i:id]/show", GET]
     - GLApp\product: ["/product/add", "GET|POST"]
+    - GLApp\product: ["/product/[i:id]/show", GET]
 
 #database:
 #  cache:

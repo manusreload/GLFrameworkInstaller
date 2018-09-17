@@ -12,7 +12,7 @@ use GLFramework\Controller;
 
 class product extends Controller {
 
-    public $version;
+    public $products;
     /**
      * Implementar aqui el código que ejecutara nuestra aplicación
      *
@@ -34,7 +34,7 @@ class product extends Controller {
         }
 
         if(isset($_GET['list'])) {
-
+            $this->products = $product->get_all();
         }
     }
 }
